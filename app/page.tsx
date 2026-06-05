@@ -1,16 +1,17 @@
 'use client';
+
+import { useEffect } from 'react';
+
 import About from '@/src/components/home/about';
 import FeaturedProducts from '@/src/components/home/featured-products';
 import FollowUs from '@/src/components/home/follow-us';
 import Hero from '@/src/components/home/hero';
 import Footer from '@/src/components/layout/footer';
-import { useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
-export default function Home() {
-  const searchParams = useSearchParams();
 
+export default function Home() {
   useEffect(() => {
-    const scrollTarget = searchParams.get('scroll');
+    const params = new URLSearchParams(window.location.search);
+    const scrollTarget = params.get('scroll');
 
     if (scrollTarget === 'about') {
       setTimeout(() => {
@@ -29,7 +30,7 @@ export default function Home() {
         });
       }, 100);
     }
-  }, [searchParams]);
+  }, []);
 
   return (
     <div className="min-h-screen bg-[#f7f8f5] text-gray-900">
