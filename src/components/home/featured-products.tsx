@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { products } from '@/src/data/products';
+import Link from 'next/link';
 
 export default function FeaturedProducts() {
   return (
@@ -32,7 +33,7 @@ export default function FeaturedProducts() {
 
                 <div className="relative h-[180px] w-[180px]">
                   <Image
-                    src={product.image}
+                    src={product.images[0]}
                     alt={product.name}
                     fill
                     className="object-contain transition duration-500 group-hover:scale-105"
@@ -57,7 +58,7 @@ export default function FeaturedProducts() {
                 </p>
 
                 <p className="mb-6 min-h-[90px] text-sm leading-6 text-gray-600">
-                  {product.description}
+                  {product.shortDescription}
                 </p>
 
                 <div className="border-t border-gray-100 pt-4">
@@ -71,9 +72,12 @@ export default function FeaturedProducts() {
                     </p>
                   </div>
 
-                  <button className="w-full rounded-full bg-green-700 py-3 text-sm font-semibold text-white transition hover:bg-green-800">
+                  <Link
+                    href={`/products/${product.slug}`}
+                    className="block w-full rounded-full bg-green-700 py-3 text-center text-sm font-semibold text-white transition hover:bg-green-800"
+                  >
                     View Product
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

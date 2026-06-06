@@ -6,7 +6,6 @@ import About from '@/src/components/home/about';
 import FeaturedProducts from '@/src/components/home/featured-products';
 import FollowUs from '@/src/components/home/follow-us';
 import Hero from '@/src/components/home/hero';
-import Footer from '@/src/components/layout/footer';
 
 export default function Home() {
   useEffect(() => {
@@ -38,7 +37,6 @@ export default function Home() {
       <FeaturedProducts />
       <About />
       <FollowUs />
-      <Footer />
     </div>
   );
 }

@@ -47,7 +47,7 @@ export default function Header() {
           />
 
           <div>
-            <h1 className="text-lg font-bold leading-none tracking-tight text-green-800 sm:text-2xl">
+            <h1 className="text-lg font-bold leading-none tracking-tight text-green-800 sm:text-2xl text-left">
               I-FERN
             </h1>
 
