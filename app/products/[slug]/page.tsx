@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { products } from '@/src/data/products';
+import ProductGallery from '@/src/components/product-gallery';
 
 type PageProps = {
   params: Promise<{
@@ -41,102 +42,90 @@ export default async function ProductPage({ params }: PageProps) {
         <div className="grid gap-8 lg:gap-12 lg:grid-cols-2">
           {/* Product Image */}
           <div>
-            <div className="relative h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-3xl bg-gray-50">
-              <Image
-                src={product.images[0]}
-                alt={product.name}
-                fill
-                className="object-contain p-4 sm:p-6 md:p-10"
-                priority
-              />
-            </div>
-
-            <div className="mt-4 flex flex-wrap gap-3">
-              {product.images.map((image, index) => (
-                <div
-                  key={index}
-                  className="relative h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 overflow-hidden rounded-xl border border-gray-200 bg-white"
-                >
-                  <Image
-                    src={image}
-                    alt={`${product.name}-${index}`}
-                    fill
-                    className="object-contain p-1 sm:p-2"
-                  />
-                </div>
-              ))}
-            </div>
+            <ProductGallery images={product.images} name={product.name} />
           </div>
 
           {/* Product Details */}
-          <div>
-            <span className="inline-block rounded-full bg-green-100 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-green-700">
+          <div className="lg:pl-4">
+            <span className="inline-block rounded-full bg-green-100 px-3 py-1 text-xs font-bold uppercase tracking-[0.15em] text-green-700">
               {product.category}
             </span>
 
-            <h1 className="mt-4 text-3xl font-black leading-tight text-gray-900 sm:text-4xl md:text-5xl">
+            <h1 className="mt-3 text-3xl font-black leading-tight text-gray-900 md:text-5xl">
               {product.name}
             </h1>
 
-            <p className="mt-2 text-base font-medium text-green-700 sm:text-lg">
+            <p className="mt-1 text-base font-medium text-green-700">
               {product.sku}
             </p>
 
-            <div className="mt-6 md:mt-8">
-              <p className="text-xs uppercase tracking-[0.2em] text-gray-400 sm:text-sm">
+            {/* Price */}
+            <div className="mt-4 border-b border-gray-100 pb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400">
                 Retail Price
               </p>
 
-              <p className="mt-2 text-3xl font-black text-green-700 sm:text-4xl">
+              <p className="mt-1 text-3xl font-black text-green-700 md:text-4xl">
                 {product.price}
               </p>
             </div>
 
-            <div className="mt-6 md:mt-8">
-              <h2 className="mb-3 text-lg font-bold text-gray-900 sm:text-xl">
+            {/* Short Description */}
+            <div className="mt-4">
+              <p className="text-base font-medium leading-7 text-gray-700">
+                {product.shortDescription}
+              </p>
+            </div>
+
+            {/* Product Overview */}
+            <div className="mt-5">
+              <h2 className="mb-2 text-lg font-bold text-gray-900">
                 Product Overview
               </h2>
 
-              <p className="text-sm leading-7 text-gray-600 sm:text-base sm:leading-8">
+              <p className="text-sm leading-7 text-gray-600 md:text-base">
                 {product.fullDescription}
               </p>
             </div>
 
-            <div className="mt-6 rounded-2xl bg-gray-50 p-4 sm:p-6 md:mt-8">
-              <h3 className="mb-2 font-bold text-gray-900">Packaging</h3>
+            {/* Packaging */}
+            <div className="mt-5 border-t border-gray-100 pt-4">
+              <h3 className="text-sm font-bold uppercase tracking-[0.15em] text-gray-900">
+                Packaging
+              </h3>
 
-              <p className="text-sm text-gray-600 sm:text-base">
-                {product.packaging}
-              </p>
+              <p className="mt-1 text-gray-600">{product.packaging}</p>
             </div>
-            <div className="mt-8 grid grid-cols-2 gap-4">
+
+            {/* Marketplace */}
+            <div className="mt-6 grid grid-cols-2 gap-3">
               <Link
-                href={'https://shopee.ph/'}
+                href="https://shopee.ph/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-center rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="group flex items-center justify-center rounded-2xl border border-orange-100 bg-orange-50 px-4 py-4 transition-all duration-300 hover:border-orange-300 hover:bg-orange-100"
               >
                 <Image
                   src="/images/shopee.svg"
                   alt="Shopee"
-                  width={160}
-                  height={50}
-                  className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                  width={140}
+                  height={40}
+                  className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
 
               <Link
-                href={'https://www.lazada.com.ph/'}
+                href="https://www.lazada.com.ph/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-center rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="group flex items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 px-4 py-4 transition-all duration-300 hover:border-blue-300 hover:bg-blue-100"
               >
                 <Image
                   src="/images/lazada.svg"
                   alt="Lazada"
-                  width={160}
-                  height={50}
-                  className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                  width={140}
+                  height={40}
+                  className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                 />
               </Link>
             </div>

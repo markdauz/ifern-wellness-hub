@@ -6,11 +6,7 @@ export const products = [
     sku: '120s',
     price: 'PHP 1890.00',
     category: 'Health',
-    images: [
-      '/images/products/fern-d.JPEG',
-      '/images/products/fern-d.JPEG',
-      '/images/products/fern-d.JPEG',
-    ],
+    images: ['/images/products/fern-d.JPEG', '/images/products/fern-d-1.jpg'],
     shortDescription:
       'Supports strong bones, immune health, and daily vitality with premium Vitamin D nutrition.',
     fullDescription:
@@ -25,11 +21,7 @@ export const products = [
     sku: '60s',
     price: 'PHP 1300.00',
     category: 'Health',
-    images: [
-      '/images/products/milkca.JPEG',
-      '/images/products/milkca.JPEG',
-      '/images/products/milkca.JPEG',
-    ],
+    images: ['/images/products/milkca.JPEG', '/images/products/milkca-1.jpg'],
     shortDescription:
       'Helps maintain healthy bones and teeth with a calcium-rich wellness formula.',
     fullDescription:
@@ -46,8 +38,7 @@ export const products = [
     category: 'Health',
     images: [
       '/images/products/fern-activ.JPEG',
-      '/images/products/fern-activ.JPEG',
-      '/images/products/fern-activ.JPEG',
+      '/images/products/fern-activ-1.jpg',
     ],
     shortDescription:
       'Supports energy, stamina, and productivity for an active and balanced lifestyle.',
@@ -63,11 +54,7 @@ export const products = [
     sku: '60s',
     price: 'PHP 1400.00',
     category: 'Health',
-    images: [
-      '/images/products/fern-e.JPEG',
-      '/images/products/fern-e.JPEG',
-      '/images/products/fern-e.JPEG',
-    ],
+    images: ['/images/products/fern-e.JPEG', '/images/products/fern-e-1.jpg'],
     shortDescription:
       'Provides antioxidant support to help promote healthy skin and overall wellness.',
     fullDescription:
@@ -84,8 +71,7 @@ export const products = [
     category: 'Beauty',
     images: [
       '/images/products/aurora-eye-cream.JPEG',
-      '/images/products/aurora-eye-cream.JPEG',
-      '/images/products/aurora-eye-cream.JPEG',
+      '/images/products/aurora-eye-cream-1.jpg',
     ],
     shortDescription:
       'Helps reduce the appearance of fine lines, puffiness, and dark circles. Keeps the delicate eye area hydrated and refreshed.',
@@ -103,8 +89,7 @@ export const products = [
     category: 'Beauty',
     images: [
       '/images/products/aurora-face-serum.JPEG',
-      '/images/products/aurora-face-serum.JPEG',
-      '/images/products/aurora-face-serum.JPEG',
+      '/images/products/aurora-face-serum-1.jpg',
     ],
     shortDescription:
       'A lightweight serum that helps improve skin texture and radiance. Supports a smoother, brighter, youthful-looking complexion.',
@@ -122,8 +107,7 @@ export const products = [
     category: 'Beauty',
     images: [
       '/images/products/aurora-lotion.JPEG',
-      '/images/products/aurora-lotion.JPEG',
-      '/images/products/aurora-lotion.JPEG',
+      '/images/products/aurora-lotion-1.jpg',
     ],
     shortDescription:
       'Deeply moisturizes and nourishes the skin. Leaves hands and body feeling soft, smooth, and refreshed all day.',
@@ -141,8 +125,7 @@ export const products = [
     category: 'Beauty',
     images: [
       '/images/products/aurora-soap.JPEG',
-      '/images/products/aurora-soap.JPEG',
-      '/images/products/aurora-soap.JPEG',
+      '/images/products/aurora-soap-1.jpg',
     ],
     shortDescription:
       'A luxurious beauty bar that gently removes impurities while helping maintain healthy-looking skin. Leaves skin smooth, radiant, and refreshed.',
@@ -158,11 +141,7 @@ export const products = [
     sku: '60s',
     price: 'PHP 1890.00',
     category: 'Health',
-    images: [
-      '/images/products/fd-3x.JPEG',
-      '/images/products/fd-3x.JPEG',
-      '/images/products/fd-3x.JPEG',
-    ],
+    images: ['/images/products/fd-3x.JPEG', '/images/products/fd-3x-1.PNG'],
     shortDescription:
       'An advanced beauty supplement with antioxidants. Supports skin health and promotes beauty and wellness from within.',
     fullDescription:
@@ -179,8 +158,7 @@ export const products = [
     category: 'Wellness',
     images: [
       '/images/products/fern-coffee-butterscotch.JPEG',
-      '/images/products/fern-coffee-butterscotch.JPEG',
-      '/images/products/fern-coffee-butterscotch.JPEG',
+      '/images/products/fern-coffee-butterscotch-1.jpg',
     ],
     shortDescription:
       'A delicious butterscotch coffee blend enriched with wellness ingredients. Helps support energy and vitality throughout the day.',
@@ -198,8 +176,7 @@ export const products = [
     category: 'Wellness',
     images: [
       '/images/products/fern-coffee-regular.JPEG',
-      '/images/products/fern-coffee-regular.JPEG',
-      '/images/products/fern-coffee-regular.JPEG',
+      '/images/products/fern-coffee-regular-1.jpg',
     ],
     shortDescription:
       'A rich coffee blend enhanced with wellness ingredients. Helps keep you energized, focused, and productive every day.',
@@ -217,8 +194,7 @@ export const products = [
     category: 'Health',
     images: [
       '/images/products/fern-flex.JPEG',
-      '/images/products/fern-flex.JPEG',
-      '/images/products/fern-flex.JPEG',
+      '/images/products/fern-flex-1.jpg',
     ],
     shortDescription:
       'An advanced joint health supplement that supports comfort, flexibility, and mobility. Helps you stay active and move confidently every day.',
@@ -236,8 +212,7 @@ export const products = [
     category: 'Health',
     images: [
       '/images/products/zerochol.JPEG',
-      '/images/products/zerochol.JPEG',
-      '/images/products/zerochol.JPEG',
+      '/images/products/zerochol-1.jpg',
     ],
     shortDescription:
       'Supports heart health and healthy cholesterol levels. Designed to complement a healthy lifestyle and balanced diet.',
@@ -255,8 +230,7 @@ export const products = [
     category: 'Wellness',
     images: [
       '/images/products/f-collagen.JPEG',
-      '/images/products/f-collagen.JPEG',
-      '/images/products/f-collagen.JPEG',
+      '/images/products/f-collagen-1.jpg',
     ],
     shortDescription:
       'A premium collagen supplement that supports skin elasticity and hydration. Promotes a youthful and radiant appearance.',
@@ -274,8 +248,7 @@ export const products = [
     category: 'Wellness',
     images: [
       '/images/products/silverfresh.JPEG',
-      '/images/products/silverfresh.JPEG',
-      '/images/products/silverfresh.JPEG',
+      '/images/products/silverfresh-1.jpg',
     ],
     shortDescription:
       'An advanced toothpaste that helps keep teeth clean, breath fresh, and gums healthy. Designed for everyday oral wellness and confidence.',
