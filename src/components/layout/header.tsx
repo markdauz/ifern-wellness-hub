@@ -83,7 +83,7 @@ export default function Header() {
 
         {/* CTA */}
         <Link
-          href="/products"
+          href="/become-a-member"
           className="whitespace-nowrap rounded-full bg-green-700 px-3 py-2 text-xs font-semibold text-white shadow-lg transition hover:bg-green-800 sm:px-5 sm:py-2.5 sm:text-sm"
         >
           <span className="hidden sm:inline">Become a Member</span>

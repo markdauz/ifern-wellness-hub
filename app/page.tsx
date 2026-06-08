@@ -6,6 +6,7 @@ import About from '@/src/components/home/about';
 import FeaturedProducts from '@/src/components/home/featured-products';
 import FollowUs from '@/src/components/home/follow-us';
 import Hero from '@/src/components/home/hero';
+import MemberPromoModal from '@/src/components/home/promo-modal';
 
 export default function Home() {
   useEffect(() => {
@@ -33,6 +34,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#f7f8f5] text-gray-900">
+      <MemberPromoModal />
+
       <Hero />
       <FeaturedProducts />
       <About />

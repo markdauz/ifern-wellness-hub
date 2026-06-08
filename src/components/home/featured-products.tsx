@@ -4,70 +4,73 @@ import Link from 'next/link';
 
 export default function FeaturedProducts() {
   return (
-    <section className="bg-white py-24">
-      <div className="mx-auto max-w-7xl px-6">
-        <div className="mb-16 text-center">
-          <p className="mb-4 font-semibold uppercase tracking-[0.3em] text-green-700">
+    <section className="overflow-x-hidden bg-white py-14 sm:py-20 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="mb-10 text-center sm:mb-16">
+          <p className="mb-3 font-semibold uppercase tracking-[0.2em] text-green-700">
             Best Sellers
           </p>
 
-          <h2 className="mb-6 text-5xl font-black text-gray-900">
+          <h2 className="mb-4 text-3xl font-black text-gray-900 sm:text-4xl md:text-5xl">
             Featured Products
           </h2>
 
-          <p className="mx-auto max-w-2xl text-lg text-gray-600">
+          <p className="mx-auto max-w-2xl text-base text-gray-600 sm:text-lg">
             Explore our premium supplements carefully designed for wellness,
             recovery, immunity, and daily performance.
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        {/* Products */}
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {products.slice(0, 4).map((product) => (
             <div
               key={product.name}
               className="group overflow-hidden rounded-[28px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               {/* Product Image */}
-              <div className="relative flex h-[220px] items-center justify-center bg-gradient-to-b from-green-50 to-white p-6">
-                <div className="absolute h-32 w-32 rounded-full bg-green-100/70 blur-2xl" />
+              <div className="relative flex h-[180px] items-center justify-center bg-gradient-to-b from-green-50 to-white p-4 sm:h-[220px] sm:p-6">
+                <div className="absolute h-24 w-24 rounded-full bg-green-100/70 blur-2xl sm:h-32 sm:w-32" />
 
-                <div className="relative h-[180px] w-[180px]">
+                <div className="relative h-[140px] w-[140px] sm:h-[180px] sm:w-[180px]">
                   <Image
                     src={product.images[0]}
                     alt={product.name}
                     fill
                     className="object-contain transition duration-500 group-hover:scale-105"
-                    sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 25vw"
+                    sizes="(max-width:640px) 100vw, (max-width:1280px) 50vw, 25vw"
                   />
                 </div>
               </div>
 
               {/* Content */}
-              <div className="p-6">
-                <div className="mb-3 flex items-center gap-2">
-                  <span className="rounded-full bg-green-100 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-green-700">
+              <div className="p-4 sm:p-6">
+                <div className="mb-3">
+                  <span className="rounded-full bg-green-100 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-green-700">
                     {product.category}
                   </span>
                 </div>
 
-                <h3 className="mb-3 text-2xl font-bold text-gray-900">
+                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">
                   {product.name}
                 </h3>
-                <p className="mt-1 text-sm font-medium text-green-700">
+
+                <p className="mb-3 text-sm font-medium text-green-700">
                   {product.sku}
                 </p>
 
-                <p className="mb-6 min-h-[90px] text-sm leading-6 text-gray-600">
+                <p className="mb-5 text-sm leading-6 text-gray-600 sm:min-h-[72px]">
                   {product.shortDescription}
                 </p>
 
                 <div className="border-t border-gray-100 pt-4">
                   <div className="mb-4">
-                    <p className="text-[10px] uppercase tracking-[0.3em] text-gray-400">
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-gray-400">
                       Retail Price
                     </p>
 
-                    <p className="mt-1 text-2xl font-black text-green-700">
+                    <p className="mt-1 text-xl font-black text-green-700 sm:text-2xl">
                       {product.price}
                     </p>
                   </div>
@@ -82,6 +85,16 @@ export default function FeaturedProducts() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* View All */}
+        <div className="mt-10 text-center sm:mt-12">
+          <Link
+            href="/products"
+            className="inline-flex w-full items-center justify-center rounded-full border border-green-700 px-6 py-3 text-sm font-semibold text-green-700 transition hover:bg-green-700 hover:text-white sm:w-auto"
+          >
+            View All Products
+          </Link>
         </div>
       </div>
     </section>
