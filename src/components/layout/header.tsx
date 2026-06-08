@@ -1,14 +1,20 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const router = useRouter();
   const pathname = usePathname();
 
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   const handleHomeClick = () => {
+    setMobileOpen(false);
+
     if (pathname === '/') {
       window.scrollTo({
         top: 0,
@@ -21,6 +27,8 @@ export default function Header() {
   };
 
   const handleAboutClick = () => {
+    setMobileOpen(false);
+
     if (pathname === '/') {
       document.getElementById('about')?.scrollIntoView({
         behavior: 'smooth',
@@ -47,7 +55,7 @@ export default function Header() {
           />
 
           <div>
-            <h1 className="text-lg font-bold leading-none tracking-tight text-green-800 sm:text-2xl text-left">
+            <h1 className="text-left text-lg font-bold leading-none tracking-tight text-green-800 sm:text-2xl">
               I-FERN
             </h1>
 
@@ -79,16 +87,72 @@ export default function Header() {
           >
             Products
           </Link>
+
+          <Link
+            href="/become-a-member"
+            className="text-sm font-medium text-gray-700 transition hover:text-green-700"
+          >
+            Membership
+          </Link>
         </nav>
 
-        {/* CTA */}
+        {/* Desktop CTA */}
         <Link
           href="/become-a-member"
-          className="whitespace-nowrap rounded-full bg-green-700 px-3 py-2 text-xs font-semibold text-white shadow-lg transition hover:bg-green-800 sm:px-5 sm:py-2.5 sm:text-sm"
+          className="hidden whitespace-nowrap rounded-full bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-green-800 md:inline-flex"
         >
-          <span className="hidden sm:inline">Become a Member</span>
-          <span className="sm:hidden">Join Now</span>
+          Become a Member
         </Link>
+
+        {/* Mobile Menu Toggle */}
+        <button
+          onClick={() => setMobileOpen((prev) => !prev)}
+          className="flex h-10 w-10 items-center justify-center rounded-xl border border-gray-200 bg-white text-green-700 shadow-sm transition hover:bg-green-50 md:hidden"
+          aria-label="Toggle navigation"
+        >
+          {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      <div
+        className={`overflow-hidden border-t border-gray-100 bg-white transition-all duration-300 md:hidden ${
+          mobileOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <div className="space-y-2 p-4">
+          <button
+            onClick={handleHomeClick}
+            className="block w-full rounded-2xl px-4 py-3 text-left font-medium text-gray-700 transition hover:bg-green-50 hover:text-green-700"
+          >
+            Home
+          </button>
+
+          <button
+            onClick={handleAboutClick}
+            className="block w-full rounded-2xl px-4 py-3 text-left font-medium text-gray-700 transition hover:bg-green-50 hover:text-green-700"
+          >
+            About
+          </button>
+
+          <Link
+            href="/products"
+            onClick={() => setMobileOpen(false)}
+            className="block rounded-2xl px-4 py-3 font-medium text-gray-700 transition hover:bg-green-50 hover:text-green-700"
+          >
+            Products
+          </Link>
+
+          <div className="pt-2">
+            <Link
+              href="/become-a-member"
+              onClick={() => setMobileOpen(false)}
+              className="block w-full rounded-full bg-green-700 py-3 text-center text-sm font-semibold text-white shadow-lg transition hover:bg-green-800"
+            >
+              Become a Member
+            </Link>
+          </div>
+        </div>
       </div>
     </header>
   );
