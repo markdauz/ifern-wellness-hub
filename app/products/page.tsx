@@ -124,7 +124,7 @@ export default function ProductsPage() {
                       </h3>
 
                       <p className="mt-1 text-sm font-medium text-green-700">
-                        {product.sku}
+                        {product.variants[0].sku}
                       </p>
                     </div>
 
@@ -139,7 +139,7 @@ export default function ProductsPage() {
                         </p>
 
                         <p className="mt-1 text-2xl font-black text-green-700">
-                          {product.price}
+                          {product.variants[0].price}
                         </p>
                       </div>
 
