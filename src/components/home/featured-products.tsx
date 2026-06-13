@@ -57,7 +57,7 @@ export default function FeaturedProducts() {
                 </h3>
 
                 <p className="mb-3 text-sm font-medium text-green-700">
-                  {product.sku}
+                  {product.variants[0].sku}
                 </p>
 
                 <p className="mb-5 text-sm leading-6 text-gray-600 sm:min-h-[72px]">
@@ -71,7 +71,7 @@ export default function FeaturedProducts() {
                     </p>
 
                     <p className="mt-1 text-xl font-black text-green-700 sm:text-2xl">
-                      {product.price}
+                      {product.variants[0].price}
                     </p>
                   </div>
 

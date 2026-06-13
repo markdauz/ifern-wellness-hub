@@ -23,7 +23,7 @@ export default function Header() {
       return;
     }
 
-    router.push('/?scroll=top');
+    router.push('/');
   };
 
   const handleAboutClick = () => {
@@ -37,7 +37,7 @@ export default function Header() {
       return;
     }
 
-    router.push('/?scroll=about');
+    router.push('/#about');
   };
 
   return (

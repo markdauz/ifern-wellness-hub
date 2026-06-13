@@ -8,8 +8,13 @@ export default function PromoModal() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
+    const hasSeenModal = sessionStorage.getItem('promoModalShown');
+
+    if (hasSeenModal) return;
+
     const timer = setTimeout(() => {
       setOpen(true);
+      sessionStorage.setItem('promoModalShown', 'true');
     }, 600);
 
     return () => clearTimeout(timer);

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { products } from '@/src/data/products';
 import ProductGallery from '@/src/components/product-gallery';
+import ProductVariantDetails from '@/src/components/product-variant-details';
 
 type PageProps = {
   params: Promise<{
@@ -55,20 +56,7 @@ export default async function ProductPage({ params }: PageProps) {
               {product.name}
             </h1>
 
-            <p className="mt-1 text-sm font-medium text-green-700 sm:text-base">
-              {product.sku}
-            </p>
-
-            {/* Price */}
-            <div className="mt-5 border-b border-gray-100 pb-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400">
-                Retail Price
-              </p>
-
-              <p className="mt-2 text-2xl font-black text-green-700 sm:text-3xl md:text-4xl">
-                {product.price}
-              </p>
-            </div>
+            <ProductVariantDetails variants={product.variants} />
 
             {/* Short Description */}
             <div className="mt-5">
@@ -95,7 +83,7 @@ export default async function ProductPage({ params }: PageProps) {
               </h3>
 
               <p className="mt-2 text-sm text-gray-600 sm:text-base">
-                {product.packaging}
+                {product.variants[0].packaging}
               </p>
             </div>
 

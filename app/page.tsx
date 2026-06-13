@@ -10,23 +10,11 @@ import MemberPromoModal from '@/src/components/home/promo-modal';
 
 export default function Home() {
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const scrollTarget = params.get('scroll');
-
-    if (scrollTarget === 'about') {
+    if (window.location.hash === '#about') {
       setTimeout(() => {
         document.getElementById('about')?.scrollIntoView({
           behavior: 'smooth',
           block: 'start',
-        });
-      }, 100);
-    }
-
-    if (scrollTarget === 'top') {
-      setTimeout(() => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
         });
       }, 100);
     }
@@ -35,7 +23,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#f7f8f5] text-gray-900">
       <MemberPromoModal />
-
       <Hero />
       <FeaturedProducts />
       <About />
