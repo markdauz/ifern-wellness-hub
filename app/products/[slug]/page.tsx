@@ -90,7 +90,7 @@ export default async function ProductPage({ params }: PageProps) {
             {/* Marketplace */}
             <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
               <Link
-                href="https://shopee.ph/"
+                href="https://shopee.ph/ifernwellnesshub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-orange-100 bg-orange-50 px-4 py-4 transition-all duration-300 hover:border-orange-300 hover:bg-orange-100"

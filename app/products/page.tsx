@@ -4,16 +4,14 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { products } from '@/src/data/products';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 export default function ProductsPage() {
   const categories = ['All', 'Health', 'Beauty', 'Wellness'];
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedProduct, setSelectedProduct] = useState<
-    (typeof products)[number] | null
-  >(null);
-
-  const [activeImage, setActiveImage] = useState('');
+  const selectedCategory = searchParams.get('category') ?? 'All';
 
   const filteredProducts =
     selectedCategory === 'All'
@@ -46,7 +44,19 @@ export default function ProductsPage() {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => setSelectedCategory(category)}
+              onClick={() => {
+                const params = new URLSearchParams(searchParams.toString());
+
+                if (category === 'All') {
+                  params.delete('category');
+                } else {
+                  params.set('category', category);
+                }
+
+                router.push(`/products?${params.toString()}`, {
+                  scroll: false,
+                });
+              }}
               className={`rounded-full px-4 py-2 sm:px-6 sm:py-3 text-sm font-semibold transition-all duration-300 ${
                 selectedCategory === category
                   ? 'bg-green-700 text-white shadow-lg'

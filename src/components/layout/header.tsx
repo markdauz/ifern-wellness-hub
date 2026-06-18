@@ -4,13 +4,22 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Menu, X } from 'lucide-react';
+import { Menu, Search, X } from 'lucide-react';
+import { products } from '@/src/data/products';
 
 export default function Header() {
   const router = useRouter();
   const pathname = usePathname();
 
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [search, setSearch] = useState('');
+  const [showResults, setShowResults] = useState(false);
+
+  const filteredProducts = search.trim()
+    ? products.filter((product) =>
+        product.name.toLowerCase().includes(search.toLowerCase()),
+      )
+    : [];
 
   const handleHomeClick = () => {
     setMobileOpen(false);
@@ -38,6 +47,24 @@ export default function Header() {
     }
 
     router.push('/#about');
+  };
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key !== 'Enter' || !search.trim()) return;
+
+    const exactMatch = products.find(
+      (product) => product.name.toLowerCase() === search.trim().toLowerCase(),
+    );
+
+    if (exactMatch) {
+      router.push(`/products/${exactMatch.slug}`);
+    } else {
+      router.push(`/products?search=${encodeURIComponent(search)}`);
+    }
+
+    setSearch('');
+    setShowResults(false);
+    setMobileOpen(false);
   };
 
   return (
@@ -97,12 +124,51 @@ export default function Header() {
         </nav>
 
         {/* Desktop CTA */}
-        <Link
-          href="/become-a-member"
-          className="hidden whitespace-nowrap rounded-full bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-green-800 md:inline-flex"
-        >
-          Become a Member
-        </Link>
+        <div className="hidden items-center gap-3 md:flex">
+          <div className="relative">
+            <Search
+              size={18}
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            />
+
+            <input
+              type="text"
+              value={search}
+              placeholder="Search products..."
+              onChange={(e) => {
+                setSearch(e.target.value);
+                setShowResults(true);
+              }}
+              onKeyDown={handleSearch}
+              className="w-56 rounded-full border border-gray-200 py-2 pl-10 pr-4 text-sm outline-none transition focus:border-green-600 focus:ring-2 focus:ring-green-100"
+            />
+
+            {showResults && filteredProducts.length > 0 && (
+              <div className="absolute top-full z-50 mt-2 w-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-xl">
+                {filteredProducts.map((product) => (
+                  <button
+                    key={product.id}
+                    onClick={() => {
+                      router.push(`/products/${product.slug}`);
+                      setSearch('');
+                      setShowResults(false);
+                    }}
+                    className="block w-full px-4 py-3 text-left text-sm text-gray-700 hover:bg-green-50 hover:text-green-700"
+                  >
+                    {product.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <Link
+            href="/become-a-member"
+            className="whitespace-nowrap rounded-full bg-green-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-green-800"
+          >
+            Become a Member
+          </Link>
+        </div>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -142,6 +208,41 @@ export default function Header() {
           >
             Products
           </Link>
+          {/* Mobile Search */}
+          <div className="relative px-1 pb-2">
+            <Search size={18} className="absolute left-4 top-4 text-gray-400" />
+
+            <input
+              type="text"
+              value={search}
+              placeholder="Search products..."
+              onChange={(e) => {
+                setSearch(e.target.value);
+                setShowResults(true);
+              }}
+              onKeyDown={handleSearch}
+              className="w-full rounded-2xl border border-gray-200 py-3 pl-11 pr-4 text-sm outline-none transition focus:border-green-600 focus:ring-2 focus:ring-green-100"
+            />
+
+            {showResults && filteredProducts.length > 0 && (
+              <div className="mt-2 overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-lg">
+                {filteredProducts.map((product) => (
+                  <button
+                    key={product.id}
+                    onClick={() => {
+                      router.push(`/products/${product.slug}`);
+                      setSearch('');
+                      setShowResults(false);
+                      setMobileOpen(false);
+                    }}
+                    className="block w-full px-4 py-3 text-left text-sm text-gray-700 hover:bg-green-50 hover:text-green-700"
+                  >
+                    {product.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
 
           <div className="pt-2">
             <Link
