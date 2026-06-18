@@ -21,6 +21,10 @@ export const products = [
         packaging: '60 Softgel Capsules',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/FERN-D-Cholecalciferol-(Vitamin-D3)-1000-IU-60s-i.1861457112.45912413163?extraParams=%7B%22display_model_id%22%3A361074427848%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -40,6 +44,10 @@ export const products = [
         packaging: '60 Capsules',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/MilkCa-Milk-Calcium-Complex-60s-i.1861457112.57462395937?extraParams=%7B%22display_model_id%22%3A376074455183%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -62,6 +70,10 @@ export const products = [
         packaging: '60 Capsules',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/FERN-ACTIV-Vitamins-and-Minerals-60s-i.1861457112.55512389499?extraParams=%7B%22display_model_id%22%3A361074446134%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -81,6 +93,9 @@ export const products = [
         packaging: '60 Softgel Capsules',
       },
     ],
+    shopeeUrl: '',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -103,6 +118,9 @@ export const products = [
         packaging: '30ml',
       },
     ],
+    shopeeUrl: '',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -125,6 +143,9 @@ export const products = [
         packaging: '30ml',
       },
     ],
+    shopeeUrl: '',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -147,6 +168,10 @@ export const products = [
         packaging: '200ml',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/AURORA-Hand-and-Body-Lotion-i.1861457112.40081802638?extraParams=%7B%22display_model_id%22%3A316075109406%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -169,6 +194,10 @@ export const products = [
         packaging: '135g',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -188,6 +217,9 @@ export const products = [
         packaging: '60 Capsules',
       },
     ],
+    shopeeUrl: '',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -210,6 +242,10 @@ export const products = [
         packaging: '10 x 21g Sachets',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/FERNCOFFEE-Butterscotch-Drink-Mix-with-Vitamin-E-i.1861457112.48912353556?extraParams=%7B%22display_model_id%22%3A356070072151%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -232,6 +268,10 @@ export const products = [
         packaging: '10 x 21g Sachets',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/FERNCOFFEE-3-in-1-Drink-Mix-i.1861457112.57512345330?extraParams=%7B%22display_model_id%22%3A331070180482%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -254,6 +294,10 @@ export const products = [
         packaging: '30 Capsules',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/FERNFlex%C2%AE-Undenatured-Type-II-Collagen-30s-i.1861457112.54362393283?extraParams=%7B%22display_model_id%22%3A346074485011%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -276,6 +320,10 @@ export const products = [
         packaging: '60 Tablets',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/Zerochol%C2%AE-Phytosterols-60s-i.1861457112.45762414784?extraParams=%7B%22display_model_id%22%3A316075079780%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -298,6 +346,10 @@ export const products = [
         packaging: '7 Sachets x 5g',
       },
     ],
+    shopeeUrl:
+      'https://shopee.ph/F-COLLAGEN-Powder-Sachet-(7s-box)-i.1861457112.26695064168?extraParams=%7B%22display_model_id%22%3A321074520498%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 
   {
@@ -320,5 +372,8 @@ export const products = [
         packaging: '100ml',
       },
     ],
+    shopeeUrl: '',
+    lazadaUrl: '',
+    tiktokUrl: '',
   },
 ];

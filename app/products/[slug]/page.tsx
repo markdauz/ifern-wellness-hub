@@ -88,9 +88,9 @@ export default async function ProductPage({ params }: PageProps) {
             </div>
 
             {/* Marketplace */}
-            <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <div className="mt-6 grid grid-cols-1 gap-3 md:grid-cols-3">
               <Link
-                href="https://shopee.ph/ifernwellnesshub"
+                href={product.shopeeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-orange-100 bg-orange-50 px-4 py-4 transition-all duration-300 hover:border-orange-300 hover:bg-orange-100"
@@ -105,7 +105,7 @@ export default async function ProductPage({ params }: PageProps) {
               </Link>
 
               <Link
-                href="https://www.lazada.com.ph/"
+                href={product.lazadaUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 px-4 py-4 transition-all duration-300 hover:border-blue-300 hover:bg-blue-100"
@@ -113,6 +113,21 @@ export default async function ProductPage({ params }: PageProps) {
                 <Image
                   src="/images/lazada.svg"
                   alt="Lazada"
+                  width={140}
+                  height={40}
+                  className="h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-8"
+                />
+              </Link>
+
+              <Link
+                href={product.tiktokUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-gray-200 bg-gray-50 px-4 py-4 transition-all duration-300 hover:border-gray-300 hover:bg-gray-100"
+              >
+                <Image
+                  src="/images/tiktok.svg"
+                  alt="TikTok Shop"
                   width={140}
                   height={40}
                   className="h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-8"

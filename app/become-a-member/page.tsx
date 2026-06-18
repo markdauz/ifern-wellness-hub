@@ -40,7 +40,7 @@ export default function BecomeAMemberPage() {
 
             <div className="mt-8 flex justify-center">
               <Link
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/share/18qvbvubvQ/?mibextid=wwXIfr"
                 target="_blank"
                 className="inline-flex w-full max-w-xs items-center justify-center gap-2 rounded-full bg-green-700 px-6 py-3 text-sm font-semibold text-white shadow-xl transition hover:bg-green-800"
               >
@@ -149,7 +149,7 @@ export default function BecomeAMemberPage() {
             </p>
 
             <Link
-              href="https://www.facebook.com/YOUR_FACEBOOK_PAGE"
+              href="https://www.facebook.com/share/18qvbvubvQ/?mibextid=wwXIfr"
               target="_blank"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-green-800 shadow-lg transition hover:scale-105 sm:mt-8 sm:w-auto"
             >
