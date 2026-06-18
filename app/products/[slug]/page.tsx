@@ -105,32 +105,40 @@ export default async function ProductPage({ params }: PageProps) {
               </Link>
 
               <Link
-                href={product.lazadaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-blue-100 bg-blue-50 px-4 py-4 transition-all duration-300 hover:border-blue-300 hover:bg-blue-100"
+                href={product.lazadaUrl || '#'}
+                target={product.lazadaUrl ? '_blank' : undefined}
+                rel={product.lazadaUrl ? 'noopener noreferrer' : undefined}
+                className={`group flex min-h-[72px] items-center justify-center rounded-2xl border px-4 py-4 transition-all duration-300 ${
+                  product.lazadaUrl
+                    ? 'border-blue-100 bg-blue-50 hover:border-blue-300 hover:bg-blue-100'
+                    : 'cursor-not-allowed border-gray-200 bg-gray-100 opacity-50 pointer-events-none'
+                }`}
               >
                 <Image
                   src="/images/lazada.svg"
                   alt="Lazada"
                   width={140}
                   height={40}
-                  className="h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-8"
+                  className="h-7 w-auto object-contain sm:h-8"
                 />
               </Link>
 
               <Link
-                href={product.tiktokUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex min-h-[72px] items-center justify-center rounded-2xl border border-gray-200 bg-gray-50 px-4 py-4 transition-all duration-300 hover:border-gray-300 hover:bg-gray-100"
+                href={product.tiktokUrl || '#'}
+                target={product.tiktokUrl ? '_blank' : undefined}
+                rel={product.tiktokUrl ? 'noopener noreferrer' : undefined}
+                className={`group flex min-h-[72px] items-center justify-center rounded-2xl border px-4 py-4 transition-all duration-300 ${
+                  product.tiktokUrl
+                    ? 'border-gray-200 bg-gray-50 hover:border-gray-300 hover:bg-gray-100'
+                    : 'cursor-not-allowed border-gray-200 bg-gray-100 opacity-50 pointer-events-none'
+                }`}
               >
                 <Image
                   src="/images/tiktok.svg"
                   alt="TikTok Shop"
                   width={140}
                   height={40}
-                  className="h-7 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-8"
+                  className="h-7 w-auto object-contain sm:h-8"
                 />
               </Link>
             </div>
