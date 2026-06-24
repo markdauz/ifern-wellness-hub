@@ -17,14 +17,19 @@ export default function ProductGallery({ images, name }: Props) {
 
   return (
     <>
-      <div className="relative h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-3xl bg-gray-50">
+      <div className="relative h-[350px] overflow-hidden rounded-[32px] bg-gradient-to-b from-green-50 to-white sm:h-[450px] md:h-[550px]">
+        <div
+          aria-hidden="true"
+          className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-100/60 blur-3xl"
+        />
+
         <Image
           src={selectedImage}
           alt={name}
           fill
-          className="object-contain p-4 sm:p-6 md:p-10"
           priority
-          sizes="(max-width: 1024px) 100vw, 50vw"
+          sizes="(max-width:1024px) 100vw, 50vw"
+          className="object-contain scale-125 transition duration-500"
         />
       </div>
 
@@ -41,7 +46,7 @@ export default function ProductGallery({ images, name }: Props) {
               src={image}
               alt={`${name}-${index}`}
               fill
-              className="object-contain p-1 sm:p-2"
+              className="object-contain"
               sizes="96px"
             />
           </button>

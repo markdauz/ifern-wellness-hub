@@ -28,18 +28,19 @@ export default function FeaturedProducts() {
             <Link href={`/products/${product.slug}`} key={product.name}>
               <div className="group overflow-hidden rounded-[28px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
                 {/* Product Image */}
-                <div className="relative flex h-[180px] items-center justify-center bg-gradient-to-b from-green-50 to-white p-4 sm:h-[220px] sm:p-6">
-                  <div className="absolute h-24 w-24 rounded-full bg-green-100/70 blur-2xl sm:h-32 sm:w-32" />
+                <div className="relative h-[260px] overflow-hidden bg-gradient-to-b from-green-50 to-white">
+                  <div
+                    aria-hidden="true"
+                    className="absolute left-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-100/60 blur-3xl"
+                  />
 
-                  <div className="relative h-[140px] w-[140px] sm:h-[180px] sm:w-[180px]">
-                    <Image
-                      src={product.variants[0].images[0]}
-                      alt={product.name}
-                      fill
-                      className="object-contain transition duration-500 group-hover:scale-105"
-                      sizes="(max-width:640px) 100vw, (max-width:1280px) 50vw, 25vw"
-                    />
-                  </div>
+                  <Image
+                    src={product.variants[0].images[0]}
+                    alt={product.name}
+                    fill
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                    sizes="(max-width:640px) 100vw, (max-width:1280px) 50vw, 25vw"
+                  />
                 </div>
 
                 {/* Content */}

@@ -112,21 +112,19 @@ export default function ProductsContent() {
                   className="group block overflow-hidden rounded-[28px] border border-gray-100 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
                 >
                   {/* Product Image */}
-                  <div className="relative flex h-[180px] sm:h-[220px] items-center justify-center bg-gradient-to-b from-green-50 to-white p-6">
+                  <div className="relative h-[260px] overflow-hidden bg-gradient-to-b from-green-50 to-white">
                     <div
                       aria-hidden="true"
-                      className="absolute h-32 w-32 rounded-full bg-green-100/70 blur-2xl"
+                      className="absolute left-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-100/60 blur-3xl"
                     />
 
-                    <div className="relative h-[140px] w-[140px] sm:h-[180px] sm:w-[180px]">
-                      <Image
-                        src={product.variants[0].images[0]}
-                        alt={`${product.name} product image`}
-                        fill
-                        className="object-contain transition duration-500 group-hover:scale-105"
-                        sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 25vw"
-                      />
-                    </div>
+                    <Image
+                      src={product.variants[0].images[0]}
+                      alt={`${product.name} product image`}
+                      fill
+                      className="object-cover transition duration-500 group-hover:scale-105"
+                      sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 25vw"
+                    />
                   </div>
 
                   {/* Content */}
@@ -162,11 +160,10 @@ export default function ProductsContent() {
                         </p>
                       </div>
 
-                      <div
-                        aria-hidden="true"
-                        className="block w-full rounded-full bg-green-700 py-3 text-center text-sm font-semibold text-white transition group-hover:bg-green-800"
-                      >
-                        View Product
+                      <div className="border-t border-gray-100 pt-4">
+                        <div className="flex h-11 items-center justify-center rounded-full bg-green-700 text-sm font-semibold text-white transition-all duration-300 group-hover:bg-green-800">
+                          View Product
+                        </div>
                       </div>
                     </div>
                   </div>
