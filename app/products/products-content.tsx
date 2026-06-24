@@ -88,7 +88,7 @@ export default function ProductsContent() {
           </div>
 
           {filteredProducts.length === 0 ? (
-            <div className="rounded-3xl border border-gray-100 bg-gray-50 py-20 text-center">
+            <div className="rounded-2xl border border-gray-100 bg-gray-50 py-20 text-center">
               <h3 className="mb-2 text-xl font-semibold text-gray-900">
                 No products found
               </h3>

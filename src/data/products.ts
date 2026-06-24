@@ -13,7 +13,10 @@ export const products = [
         sku: '120s',
         price: 'PHP 1580.00',
         packaging: '120 Softgel Capsules',
-        images: ['/images/products/fern-d-120.JPEG'],
+        images: [
+          '/images/products/fern-d-120.JPEG',
+          '/images/products/fern-d-120.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Fern-D-1000-I.U.-Softgel-Capsule-Vitamin-120s-i.1861457112.46112661832?extraParams=%7B%22display_model_id%22%3A421098073132%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -24,7 +27,10 @@ export const products = [
         sku: '60s',
         price: 'PHP 850.00',
         packaging: '60 Softgel Capsules',
-        images: ['/images/products/fern-d-60.JPEG'],
+        images: [
+          '/images/products/fern-d-60.JPEG',
+          '/images/products/fern-d-60.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Fern-D-1000-I.U.-Softgel-Capsule-Vitamin-60s-i.1861457112.46812676185?extraParams=%7B%22display_model_id%22%3A416099094431%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -48,7 +54,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1300.00',
         packaging: '60 Capsules',
-        images: ['/images/products/milkca.JPEG'],
+        images: ['/images/products/milkca.JPEG', '/images/products/milkca.PNG'],
         shopeeUrl:
           'https://shopee.ph/I-Fern-MilkCa-Milk-Calcium-Complex-i.1861457112.46212673827?extraParams=%7B%22display_model_id%22%3A346099243707%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -72,7 +78,10 @@ export const products = [
         sku: '60s',
         price: 'PHP 1200.00',
         packaging: '60 Capsules',
-        images: ['/images/products/fern-activ.JPEG'],
+        images: [
+          '/images/products/fern-activ.JPEG',
+          '/images/products/fern-activ.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Fern-Activ-60-capsules-i.1861457112.43831927346?extraParams=%7B%22display_model_id%22%3A366099322135%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -96,7 +105,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1400.00',
         packaging: '60 Softgel Capsules',
-        images: ['/images/products/fern-e.JPEG'],
+        images: ['/images/products/fern-e.JPEG', '/images/products/fern-e.PNG'],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Fern-E-400-I.U.-Vitamin-E-60-Softgel-Capsules-i.1861457112.49962679741?extraParams=%7B%22display_model_id%22%3A361099513445%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -120,7 +129,10 @@ export const products = [
         sku: '30ml',
         price: 'PHP 1200.00',
         packaging: '30ml',
-        images: ['/images/products/aurora-eye-cream.JPEG'],
+        images: [
+          '/images/products/aurora-eye-cream.JPEG',
+          '/images/products/aurora-eye-cream.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Moisturizing-Eye-Cream-i.1861457112.54512619931?extraParams=%7B%22display_model_id%22%3A431097004940%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -144,7 +156,10 @@ export const products = [
         sku: '30ml',
         price: 'PHP 1200.00',
         packaging: '30ml',
-        images: ['/images/products/aurora-face-serum.JPEG'],
+        images: [
+          '/images/products/aurora-face-serum.JPEG',
+          '/images/products/aurora-face-serum.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Face-Serum-i.1861457112.42681909088?extraParams=%7B%22display_model_id%22%3A371097063196%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -168,7 +183,10 @@ export const products = [
         sku: '200ml',
         price: 'PHP 650.00',
         packaging: '200ml',
-        images: ['/images/products/aurora-lotion.JPEG'],
+        images: [
+          '/images/products/aurora-lotion.JPEG',
+          '/images/products/aurora-lotion.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Hand-and-Body-Lotion-i.1861457112.40931912093?extraParams=%7B%22display_model_id%22%3A371096941317%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -192,7 +210,10 @@ export const products = [
         sku: '135g',
         price: 'PHP 400.00',
         packaging: '135g',
-        images: ['/images/products/aurora-beauty-soap.JPEG'],
+        images: [
+          '/images/products/aurora-beauty-soap.JPEG',
+          '/images/products/aurora-beauty-soap.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Beauty-Bar-i.1861457112.40281920476?extraParams=%7B%22display_model_id%22%3A441096850427%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -216,7 +237,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1890.00',
         packaging: '60 Capsules',
-        images: ['/images/products/fd3x.JPEG'],
+        images: ['/images/products/fd3x.JPEG', '/images/products/fd3x.PNG'],
         shopeeUrl:
           'https://shopee.ph/I-Fern-F-D3X-60-capsules-i.1861457112.57162654475?extraParams=%7B%22display_model_id%22%3A336099491403%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -240,7 +261,10 @@ export const products = [
         sku: '10s/box',
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
-        images: ['/images/products/fern-coffee-butterscotch.JPEG'],
+        images: [
+          '/images/products/fern-coffee-butterscotch.JPEG',
+          '/images/products/fern-coffee-butterscotch.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-FernCoffee-Butterscotch-i.1861457112.52212622845?extraParams=%7B%22display_model_id%22%3A421096777760%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -264,7 +288,10 @@ export const products = [
         sku: '10s/box',
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
-        images: ['/images/products/fern-coffee-regular.JPEG'],
+        images: [
+          '/images/products/fern-coffee-regular.JPEG',
+          '/images/products/fern-coffee-regular.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-FernCoffee-3in1-i.1861457112.56712627683?extraParams=%7B%22display_model_id%22%3A391096815937%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -288,7 +315,10 @@ export const products = [
         sku: '30s',
         price: 'PHP 1650.00',
         packaging: '30 Capsules',
-        images: ['/images/products/fern-flex.JPEG'],
+        images: [
+          '/images/products/fern-flex.JPEG',
+          '/images/products/fern-flex.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Fern-Flex-30s-i.1861457112.53212640054?extraParams=%7B%22display_model_id%22%3A386097516478%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -312,7 +342,10 @@ export const products = [
         sku: '60s',
         price: 'PHP 1900.00',
         packaging: '60 Tablets',
-        images: ['/images/products/zerochol.JPEG'],
+        images: [
+          '/images/products/zerochol.JPEG',
+          '/images/products/zerochol.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Zerochol-Phytosterols-60s-i.1861457112.52912629829?extraParams=%7B%22display_model_id%22%3A316098027931%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -336,7 +369,10 @@ export const products = [
         sku: '7s/box',
         price: 'PHP 1700.00',
         packaging: '7 Sachets x 5g',
-        images: ['/images/products/f-collagen.JPEG'],
+        images: [
+          '/images/products/f-collagen.JPEG',
+          '/images/products/f-collagen.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-F-Collagen-Powder-Sachet-i.1861457112.49412652306?extraParams=%7B%22display_model_id%22%3A436097112587%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -360,7 +396,10 @@ export const products = [
         sku: '100ml',
         price: 'PHP 500.00',
         packaging: '100ml',
-        images: ['/images/products/silverfresh.JPEG'],
+        images: [
+          '/images/products/silverfresh.JPEG',
+          '/images/products/silverfresh.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-SilverFresh-Anti-Bacterial-Toothpaste-i.1861457112.42431921101?extraParams=%7B%22display_model_id%22%3A376097324522%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -383,7 +422,10 @@ export const products = [
         sku: '30ml',
         price: 'PHP 800.00',
         packaging: '30ml',
-        images: ['/images/products/aurora-night-cream.JPEG'],
+        images: [
+          '/images/products/aurora-night-cream.JPEG',
+          '/images/products/aurora-night-cream.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Nourishing-Night-Cream-i.1861457112.51212691518?extraParams=%7B%22display_model_id%22%3A406101942670%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:
@@ -406,7 +448,10 @@ export const products = [
         sku: '15g',
         price: 'PHP 700.00',
         packaging: '15g',
-        images: ['/images/products/aurora-sun-screen.JPEG'],
+        images: [
+          '/images/products/aurora-sun-screen.JPEG',
+          '/images/products/aurora-sun-screen.PNG',
+        ],
         shopeeUrl:
           'https://shopee.ph/I-Fern-Aurora-Mattifying-Sunscreen-Stick-i.1861457112.54212679405?extraParams=%7B%22display_model_id%22%3A316102499261%2C%22model_selection_logic%22%3A3%7D',
         lazadaUrl:

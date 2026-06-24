@@ -60,7 +60,7 @@ export default function Footer() {
             </p>
 
             <p className="mt-2 text-xs text-gray-400">
-              Official I-FERN Distributor
+              Authorized I-FERN Distributor
             </p>
           </div>
         </div>

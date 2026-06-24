@@ -73,7 +73,7 @@ export default function BecomeAMemberPage() {
           {perks.map((perk) => (
             <div
               key={perk}
-              className="rounded-3xl border border-green-100 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="rounded-2xl border border-green-100 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <CheckCircle className="mb-4 h-7 w-7 text-green-700" />
 
@@ -98,7 +98,7 @@ export default function BecomeAMemberPage() {
           </div>
 
           <div className="mt-10 grid gap-5 md:grid-cols-3">
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
               <Star className="mb-5 h-10 w-10 text-yellow-400" />
 
               <h3 className="text-xl font-semibold">Exclusive Promotions</h3>
@@ -108,7 +108,7 @@ export default function BecomeAMemberPage() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
               <TrendingUp className="mb-5 h-10 w-10 text-green-300" />
 
               <h3 className="text-xl font-semibold">Business Opportunities</h3>
@@ -119,7 +119,7 @@ export default function BecomeAMemberPage() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
               <Users className="mb-5 h-10 w-10 text-green-300" />
 
               <h3 className="text-xl font-semibold">Supportive Community</h3>
@@ -136,7 +136,7 @@ export default function BecomeAMemberPage() {
       {/* CTA */}
       <section className="py-14 sm:py-24">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
-          <div className="rounded-3xl bg-gradient-to-r from-green-700 to-green-900 p-6 text-center text-white shadow-2xl sm:p-10">
+          <div className="rounded-2xl bg-gradient-to-r from-green-700 to-green-900 p-6 text-center text-white shadow-2xl sm:p-10">
             <Gift className="mx-auto h-10 w-10 sm:h-12 sm:w-12" />
 
             <h2 className="mt-4 text-2xl font-bold sm:mt-6 sm:text-4xl">

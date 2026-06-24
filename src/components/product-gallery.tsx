@@ -17,7 +17,7 @@ export default function ProductGallery({ images, name }: Props) {
 
   return (
     <>
-      <div className="relative h-[350px] overflow-hidden rounded-[32px] bg-gradient-to-b from-green-50 to-white sm:h-[450px] md:h-[550px]">
+      <div className="relative aspect-square overflow-hidden rounded-[32px] bg-gradient-to-b from-green-50 to-white">
         <div
           aria-hidden="true"
           className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-100/60 blur-3xl"
@@ -29,7 +29,7 @@ export default function ProductGallery({ images, name }: Props) {
           fill
           priority
           sizes="(max-width:1024px) 100vw, 50vw"
-          className="object-contain scale-125 transition duration-500"
+          className="object-contain scale-100"
         />
       </div>
 

@@ -29,7 +29,7 @@ export default function PromoModal() {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-sm overflow-hidden rounded-3xl bg-white shadow-2xl"
+        className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-white shadow-2xl"
       >
         {/* Decorative Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-white to-yellow-50" />
