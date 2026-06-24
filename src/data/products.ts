@@ -14,19 +14,24 @@ export const products = [
         price: 'PHP 1580.00',
         packaging: '120 Softgel Capsules',
         images: ['/images/products/fern-d-120.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Fern-D-1000-I.U.-Softgel-Capsule-Vitamin-120s-i.1861457112.46112661832?extraParams=%7B%22display_model_id%22%3A421098073132%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15534082003-s133302126823.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15534082003%253Bsrc%253AlazadaInShopSrp%253Brn%253A868fabe00362d2ab698ea5238d30b20e%253Bregion%253Aph%253Bsku%253A15534082003_PH%253Bprice%253A1580%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A17%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13138%253Bitem_id%253A15534082003%253Bsku_id%253A133302126823%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.58E%203&priceCompare=skuId%3A133302126823%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A868fabe00362d2ab698ea5238d30b20e%3BoriginPrice%3A158000%3BdisplayPrice%3A158000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1782282019376&ratingscore=&request_id=868fabe00362d2ab698ea5238d30b20e&review=&sale=0&search=1&spm=a2o4l.store_product.list.17&stock=1',
+        tiktokUrl: '',
       },
       {
         sku: '60s',
         price: 'PHP 850.00',
         packaging: '60 Softgel Capsules',
         images: ['/images/products/fern-d-60.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Fern-D-1000-I.U.-Softgel-Capsule-Vitamin-60s-i.1861457112.46812676185?extraParams=%7B%22display_model_id%22%3A416099094431%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15526571196-s133264083215.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15526571196%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15526571196_PH%253Bprice%253A850%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15526571196%253Bsku_id%253A133264083215%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=8.5E%202&priceCompare=skuId%3A133264083215%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A85000%3BdisplayPrice%3A85000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.1&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERN-D-Cholecalciferol-(Vitamin-D3)-1000-IU-60s-i.1861457112.45912413163?extraParams=%7B%22display_model_id%22%3A361074427848%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15526571196-s133264083215.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15526571196%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15526571196_PH%253Bprice%253A850%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15526571196%253Bsku_id%253A133264083215%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=8.5E%202&priceCompare=skuId%3A133264083215%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A85000%3BdisplayPrice%3A85000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.1&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -44,13 +49,13 @@ export const products = [
         price: 'PHP 1300.00',
         packaging: '60 Capsules',
         images: ['/images/products/milkca.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-MilkCa-Milk-Calcium-Complex-i.1861457112.46212673827?extraParams=%7B%22display_model_id%22%3A346099243707%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528259897-s133281940332.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528259897%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528259897_PH%253Bprice%253A1300%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A12%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15528259897%253Bsku_id%253A133281940332%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.3E%203&priceCompare=skuId%3A133281940332%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A130000%3BdisplayPrice%3A130000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.12&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/MilkCa-Milk-Calcium-Complex-60s-i.1861457112.57462395937?extraParams=%7B%22display_model_id%22%3A376074455183%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528259897-s133281940332.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528259897%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528259897_PH%253Bprice%253A1300%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A12%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15528259897%253Bsku_id%253A133281940332%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.3E%203&priceCompare=skuId%3A133281940332%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A130000%3BdisplayPrice%3A130000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.12&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -68,13 +73,13 @@ export const products = [
         price: 'PHP 1200.00',
         packaging: '60 Capsules',
         images: ['/images/products/fern-activ.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Fern-Activ-60-capsules-i.1861457112.43831927346?extraParams=%7B%22display_model_id%22%3A366099322135%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15529050017-s133281918949.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15529050017%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15529050017_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13138%253Bitem_id%253A15529050017%253Bsku_id%253A133281918949%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133281918949%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.10&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERN-ACTIV-Vitamins-and-Minerals-60s-i.1861457112.55512389499?extraParams=%7B%22display_model_id%22%3A361074446134%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15529050017-s133281918949.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15529050017%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15529050017_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13138%253Bitem_id%253A15529050017%253Bsku_id%253A133281918949%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133281918949%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.10&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -92,13 +97,13 @@ export const products = [
         price: 'PHP 1400.00',
         packaging: '60 Softgel Capsules',
         images: ['/images/products/fern-e.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Fern-E-400-I.U.-Vitamin-E-60-Softgel-Capsules-i.1861457112.49962679741?extraParams=%7B%22display_model_id%22%3A361099513445%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528177527-s133271291705.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528177527%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528177527_PH%253Bprice%253A1400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A5%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9395%253Bitem_id%253A15528177527%253Bsku_id%253A133271291705%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.4E%203&priceCompare=skuId%3A133271291705%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A140000%3BdisplayPrice%3A140000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.5&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERN-E%C2%AE-Vitamin-E-(d-Alpha-Tocopherol)-60s-i.1861457112.51412406909?extraParams=%7B%22display_model_id%22%3A262706806184%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528177527-s133271291705.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528177527%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528177527_PH%253Bprice%253A1400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A5%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9395%253Bitem_id%253A15528177527%253Bsku_id%253A133271291705%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.4E%203&priceCompare=skuId%3A133271291705%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A140000%3BdisplayPrice%3A140000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.5&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -116,13 +121,13 @@ export const products = [
         price: 'PHP 1200.00',
         packaging: '30ml',
         images: ['/images/products/aurora-eye-cream.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Moisturizing-Eye-Cream-i.1861457112.54512619931?extraParams=%7B%22display_model_id%22%3A431097004940%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528277258-s133271279682.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528277258%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528277258_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10100735%253Bitem_id%253A15528277258%253Bsku_id%253A133271279682%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133271279682%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.0&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Moisturizing-Eye-Cream-30ml-i.1861457112.49162435351?extraParams=%7B%22display_model_id%22%3A401075036954%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528277258-s133271279682.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528277258%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528277258_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10100735%253Bitem_id%253A15528277258%253Bsku_id%253A133271279682%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133271279682%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.0&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -140,13 +145,13 @@ export const products = [
         price: 'PHP 1200.00',
         packaging: '30ml',
         images: ['/images/products/aurora-face-serum.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Face-Serum-i.1861457112.42681909088?extraParams=%7B%22display_model_id%22%3A371097063196%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528832754-s133281594912.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528832754%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528832754_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A7%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13184%253Bitem_id%253A15528832754%253Bsku_id%253A133281594912%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133281594912%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.7&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Face-Serum-30ml-i.1861457112.28695075097?extraParams=%7B%22display_model_id%22%3A272706557781%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528832754-s133281594912.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528832754%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528832754_PH%253Bprice%253A1200%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A7%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13184%253Bitem_id%253A15528832754%253Bsku_id%253A133281594912%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.2E%203&priceCompare=skuId%3A133281594912%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A120000%3BdisplayPrice%3A120000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.7&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -164,13 +169,13 @@ export const products = [
         price: 'PHP 650.00',
         packaging: '200ml',
         images: ['/images/products/aurora-lotion.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Hand-and-Body-Lotion-i.1861457112.40931912093?extraParams=%7B%22display_model_id%22%3A371096941317%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528894531-s133281708762.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528894531%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528894531_PH%253Bprice%253A650%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A4%253Butlog_bucket_id%253A470687%253Basc_category_id%253A24247%253Bitem_id%253A15528894531%253Bsku_id%253A133281708762%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=6.5E%202&priceCompare=skuId%3A133281708762%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A65000%3BdisplayPrice%3A65000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.4&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Hand-and-Body-Lotion-i.1861457112.40081802638?extraParams=%7B%22display_model_id%22%3A316075109406%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528894531-s133281708762.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528894531%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528894531_PH%253Bprice%253A650%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A4%253Butlog_bucket_id%253A470687%253Basc_category_id%253A24247%253Bitem_id%253A15528894531%253Bsku_id%253A133281708762%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=6.5E%202&priceCompare=skuId%3A133281708762%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A65000%3BdisplayPrice%3A65000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.4&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -188,13 +193,13 @@ export const products = [
         price: 'PHP 400.00',
         packaging: '135g',
         images: ['/images/products/aurora-beauty-soap.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Beauty-Bar-i.1861457112.40281920476?extraParams=%7B%22display_model_id%22%3A441096850427%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -212,13 +217,13 @@ export const products = [
         price: 'PHP 1890.00',
         packaging: '60 Capsules',
         images: ['/images/products/fd3x.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-F-D3X-60-capsules-i.1861457112.57162654475?extraParams=%7B%22display_model_id%22%3A336099491403%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528229303-s133271239758.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528229303%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528229303_PH%253Bprice%253A1890%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15528229303%253Bsku_id%253A133271239758%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.89E%203&priceCompare=skuId%3A133271239758%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A189000%3BdisplayPrice%3A189000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.2&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/F-D3X-Food-Supplement-60s-i.1861457112.50312401931?extraParams=%7B%22display_model_id%22%3A426075121639%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528229303-s133271239758.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528229303%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528229303_PH%253Bprice%253A1890%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15528229303%253Bsku_id%253A133271239758%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.89E%203&priceCompare=skuId%3A133271239758%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A189000%3BdisplayPrice%3A189000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.2&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -236,13 +241,13 @@ export const products = [
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
         images: ['/images/products/fern-coffee-butterscotch.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-FernCoffee-Butterscotch-i.1861457112.52212622845?extraParams=%7B%22display_model_id%22%3A421096777760%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15527040219-s133274062602.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15527040219%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15527040219_PH%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A6%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25152%253Bitem_id%253A15527040219%253Bsku_id%253A133274062602%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=3.5E%202&priceCompare=skuId%3A133274062602%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.6&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERNCOFFEE-Butterscotch-Drink-Mix-with-Vitamin-E-i.1861457112.48912353556?extraParams=%7B%22display_model_id%22%3A356070072151%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15527040219-s133274062602.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15527040219%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15527040219_PH%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A6%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25152%253Bitem_id%253A15527040219%253Bsku_id%253A133274062602%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=3.5E%202&priceCompare=skuId%3A133274062602%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.6&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -260,13 +265,13 @@ export const products = [
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
         images: ['/images/products/fern-coffee-regular.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-FernCoffee-3in1-i.1861457112.56712627683?extraParams=%7B%22display_model_id%22%3A391096815937%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15527080485-s133274080746.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15527080485%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15527080485_PH%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A3%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25152%253Bitem_id%253A15527080485%253Bsku_id%253A133274080746%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_A3_E%2523-1_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=3.5E%202&priceCompare=skuId%3A133274080746%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.3&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERNCOFFEE-3-in-1-Drink-Mix-i.1861457112.57512345330?extraParams=%7B%22display_model_id%22%3A331070180482%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15527080485-s133274080746.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15527080485%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15527080485_PH%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A3%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25152%253Bitem_id%253A15527080485%253Bsku_id%253A133274080746%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_A3_E%2523-1_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=3.5E%202&priceCompare=skuId%3A133274080746%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.3&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -284,13 +289,13 @@ export const products = [
         price: 'PHP 1650.00',
         packaging: '30 Capsules',
         images: ['/images/products/fern-flex.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Fern-Flex-30s-i.1861457112.53212640054?extraParams=%7B%22display_model_id%22%3A386097516478%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15529138411-s133282520210.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15529138411%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15529138411_PH%253Bprice%253A1650%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A9%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15529138411%253Bsku_id%253A133282520210%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.65E%203&priceCompare=skuId%3A133282520210%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A165000%3BdisplayPrice%3A165000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.9&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/FERNFlex%C2%AE-Undenatured-Type-II-Collagen-30s-i.1861457112.54362393283?extraParams=%7B%22display_model_id%22%3A346074485011%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15529138411-s133282520210.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15529138411%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15529138411_PH%253Bprice%253A1650%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A9%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9388%253Bitem_id%253A15529138411%253Bsku_id%253A133282520210%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.65E%203&priceCompare=skuId%3A133282520210%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A165000%3BdisplayPrice%3A165000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.9&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -308,13 +313,13 @@ export const products = [
         price: 'PHP 1900.00',
         packaging: '60 Tablets',
         images: ['/images/products/zerochol.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Zerochol-Phytosterols-60s-i.1861457112.52912629829?extraParams=%7B%22display_model_id%22%3A316098027931%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528591288-s133272301175.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528591288%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528591288_PH%253Bprice%253A1900%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A11%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9399%253Bitem_id%253A15528591288%253Bsku_id%253A133272301175%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.9E%203&priceCompare=skuId%3A133272301175%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A190000%3BdisplayPrice%3A190000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.11&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/Zerochol%C2%AE-Phytosterols-60s-i.1861457112.45762414784?extraParams=%7B%22display_model_id%22%3A316075079780%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528591288-s133272301175.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528591288%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528591288_PH%253Bprice%253A1900%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A11%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9399%253Bitem_id%253A15528591288%253Bsku_id%253A133272301175%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.9E%203&priceCompare=skuId%3A133272301175%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A190000%3BdisplayPrice%3A190000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.11&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -332,13 +337,13 @@ export const products = [
         price: 'PHP 1700.00',
         packaging: '7 Sachets x 5g',
         images: ['/images/products/f-collagen.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-F-Collagen-Powder-Sachet-i.1861457112.49412652306?extraParams=%7B%22display_model_id%22%3A436097112587%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528870759-s133271499919.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528870759%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528870759_PH%253Bprice%253A1700%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A14%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9385%253Bitem_id%253A15528870759%253Bsku_id%253A133271499919%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.7E%203&priceCompare=skuId%3A133271499919%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A170000%3BdisplayPrice%3A170000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.14&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/F-COLLAGEN-Powder-Sachet-(7s-box)-i.1861457112.26695064168?extraParams=%7B%22display_model_id%22%3A321074520498%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528870759-s133271499919.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528870759%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528870759_PH%253Bprice%253A1700%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A14%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9385%253Bitem_id%253A15528870759%253Bsku_id%253A133271499919%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=1.7E%203&priceCompare=skuId%3A133271499919%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A170000%3BdisplayPrice%3A170000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.14&stock=1',
-    tiktokUrl: '',
   },
 
   {
@@ -356,13 +361,13 @@ export const products = [
         price: 'PHP 500.00',
         packaging: '100ml',
         images: ['/images/products/silverfresh.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-SilverFresh-Anti-Bacterial-Toothpaste-i.1861457112.42431921101?extraParams=%7B%22display_model_id%22%3A376097324522%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15528359099-s133281874173.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528359099%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528359099_PH%253Bprice%253A500%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A13%253Butlog_bucket_id%253A470687%253Basc_category_id%253A5562%253Bitem_id%253A15528359099%253Bsku_id%253A133281874173%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=5E%202&priceCompare=skuId%3A133281874173%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A50000%3BdisplayPrice%3A50000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.13&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/SilverFresh-Anti-Bacterial-Toothpaste-i.1861457112.52262401594?extraParams=%7B%22display_model_id%22%3A361075021412%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528359099-s133281874173.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528359099%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528359099_PH%253Bprice%253A500%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A13%253Butlog_bucket_id%253A470687%253Basc_category_id%253A5562%253Bitem_id%253A15528359099%253Bsku_id%253A133281874173%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=5E%202&priceCompare=skuId%3A133281874173%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A50000%3BdisplayPrice%3A50000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.13&stock=1',
-    tiktokUrl: '',
   },
   {
     id: 16,
@@ -379,13 +384,13 @@ export const products = [
         price: 'PHP 800.00',
         packaging: '30ml',
         images: ['/images/products/aurora-night-cream.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Nourishing-Night-Cream-i.1861457112.51212691518?extraParams=%7B%22display_model_id%22%3A406101942670%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15533686482-s133290031881.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15533686482%253Bsrc%253AlazadaInShopSrp%253Brn%253Ad1bf88e1f316194cebe6e3d4a25c7ee7%253Bregion%253Aph%253Bsku%253A15533686482_PH%253Bprice%253A800%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10100737%253Bitem_id%253A15533686482%253Bsku_id%253A133290031881%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=8E%202&priceCompare=skuId%3A133290031881%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3Ad1bf88e1f316194cebe6e3d4a25c7ee7%3BoriginPrice%3A80000%3BdisplayPrice%3A80000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1782280513119&ratingscore=&request_id=d1bf88e1f316194cebe6e3d4a25c7ee7&review=&sale=0&search=1&spm=a2o4l.store_product.list.1&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
-    tiktokUrl: '',
   },
   {
     id: 17,
@@ -402,12 +407,12 @@ export const products = [
         price: 'PHP 700.00',
         packaging: '15g',
         images: ['/images/products/aurora-sun-screen.JPEG'],
+        shopeeUrl:
+          'https://shopee.ph/I-Fern-Aurora-Mattifying-Sunscreen-Stick-i.1861457112.54212679405?extraParams=%7B%22display_model_id%22%3A316102499261%2C%22model_selection_logic%22%3A3%7D',
+        lazadaUrl:
+          'https://www.lazada.com.ph/products/pdp-i15533680456-s133290013936.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15533680456%253Bsrc%253AlazadaInShopSrp%253Brn%253Ad1bf88e1f316194cebe6e3d4a25c7ee7%253Bregion%253Aph%253Bsku%253A15533680456_PH%253Bprice%253A700%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A13161%253Bitem_id%253A15533680456%253Bsku_id%253A133290013936%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=7E%202&priceCompare=skuId%3A133290013936%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3Ad1bf88e1f316194cebe6e3d4a25c7ee7%3BoriginPrice%3A70000%3BdisplayPrice%3A70000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1782280513119&ratingscore=&request_id=d1bf88e1f316194cebe6e3d4a25c7ee7&review=&sale=0&search=1&spm=a2o4l.store_product.list.0&stock=1',
+        tiktokUrl: '',
       },
     ],
-    shopeeUrl:
-      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
-    lazadaUrl:
-      'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
-    tiktokUrl: '',
   },
 ];

@@ -1,7 +1,5 @@
 import { notFound } from 'next/navigation';
 import { products } from '@/src/data/products';
-import ProductGallery from '@/src/components/product-gallery';
-import ProductVariantDetails from '@/src/components/product-variant-details';
 import ProductDetails from '@/src/components/product-details';
 
 type PageProps = {
