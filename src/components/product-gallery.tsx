@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 type Props = {
@@ -11,6 +11,10 @@ type Props = {
 export default function ProductGallery({ images, name }: Props) {
   const [selectedImage, setSelectedImage] = useState(images[0]);
 
+  useEffect(() => {
+    setSelectedImage(images[0]);
+  }, [images]);
+
   return (
     <>
       <div className="relative h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-3xl bg-gray-50">
@@ -20,6 +24,7 @@ export default function ProductGallery({ images, name }: Props) {
           fill
           className="object-contain p-4 sm:p-6 md:p-10"
           priority
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
 
@@ -37,6 +42,7 @@ export default function ProductGallery({ images, name }: Props) {
               alt={`${name}-${index}`}
               fill
               className="object-contain p-1 sm:p-2"
+              sizes="96px"
             />
           </button>
         ))}

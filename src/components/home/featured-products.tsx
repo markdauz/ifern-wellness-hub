@@ -33,7 +33,7 @@ export default function FeaturedProducts() {
 
                   <div className="relative h-[140px] w-[140px] sm:h-[180px] sm:w-[180px]">
                     <Image
-                      src={product.images[0]}
+                      src={product.variants[0].images[0]}
                       alt={product.name}
                       fill
                       className="object-contain transition duration-500 group-hover:scale-105"

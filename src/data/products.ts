@@ -4,7 +4,6 @@ export const products = [
     slug: 'fern-d',
     name: 'FERN-D',
     category: 'Health',
-    images: ['/images/products/fern-d.JPEG', '/images/products/fern-d-1.jpg'],
     shortDescription:
       'Supports strong bones, immune health, and daily vitality with premium Vitamin D nutrition.',
     fullDescription:
@@ -14,11 +13,13 @@ export const products = [
         sku: '120s',
         price: 'PHP 1580.00',
         packaging: '120 Softgel Capsules',
+        images: ['/images/products/fern-d-120.JPEG'],
       },
       {
         sku: '60s',
         price: 'PHP 850.00',
         packaging: '60 Softgel Capsules',
+        images: ['/images/products/fern-d-60.JPEG'],
       },
     ],
     shopeeUrl:
@@ -33,7 +34,6 @@ export const products = [
     slug: 'milkca',
     name: 'MilkCa',
     category: 'Health',
-    images: ['/images/products/milkca.JPEG', '/images/products/milkca-1.jpg'],
     shortDescription:
       'Helps maintain healthy bones and teeth with a calcium-rich wellness formula.',
     fullDescription:
@@ -43,6 +43,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1300.00',
         packaging: '60 Capsules',
+        images: ['/images/products/milkca.JPEG'],
       },
     ],
     shopeeUrl:
@@ -57,10 +58,6 @@ export const products = [
     slug: 'fern-activ',
     name: 'FERN-ACTIV',
     category: 'Health',
-    images: [
-      '/images/products/fern-activ.JPEG',
-      '/images/products/fern-activ-1.jpg',
-    ],
     shortDescription:
       'Supports energy, stamina, and productivity for an active and balanced lifestyle.',
     fullDescription:
@@ -70,6 +67,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1200.00',
         packaging: '60 Capsules',
+        images: ['/images/products/fern-activ.JPEG'],
       },
     ],
     shopeeUrl:
@@ -84,7 +82,6 @@ export const products = [
     slug: 'fern-e',
     name: 'FERN-E',
     category: 'Health',
-    images: ['/images/products/fern-e.JPEG', '/images/products/fern-e-1.jpg'],
     shortDescription:
       'Provides antioxidant support to help promote healthy skin and overall wellness.',
     fullDescription:
@@ -94,6 +91,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1400.00',
         packaging: '60 Softgel Capsules',
+        images: ['/images/products/fern-e.JPEG'],
       },
     ],
     shopeeUrl:
@@ -108,10 +106,6 @@ export const products = [
     slug: 'aurora-eye-cream',
     name: 'Aurora Eye Cream',
     category: 'Beauty',
-    images: [
-      '/images/products/aurora-eye-cream.JPEG',
-      '/images/products/aurora-eye-cream-1.jpg',
-    ],
     shortDescription:
       'Helps reduce the appearance of fine lines, puffiness, and dark circles. Keeps the delicate eye area hydrated and refreshed.',
     fullDescription:
@@ -121,6 +115,7 @@ export const products = [
         sku: '30ml',
         price: 'PHP 1200.00',
         packaging: '30ml',
+        images: ['/images/products/aurora-eye-cream.JPEG'],
       },
     ],
     shopeeUrl:
@@ -135,10 +130,6 @@ export const products = [
     slug: 'aurora-face-serum',
     name: 'Aurora Face Serum',
     category: 'Beauty',
-    images: [
-      '/images/products/aurora-face-serum.JPEG',
-      '/images/products/aurora-face-serum-1.jpg',
-    ],
     shortDescription:
       'A lightweight serum that helps improve skin texture and radiance. Supports a smoother, brighter, youthful-looking complexion.',
     fullDescription:
@@ -148,6 +139,7 @@ export const products = [
         sku: '30ml',
         price: 'PHP 1200.00',
         packaging: '30ml',
+        images: ['/images/products/aurora-face-serum.JPEG'],
       },
     ],
     shopeeUrl:
@@ -162,10 +154,6 @@ export const products = [
     slug: 'aurora-lotion',
     name: 'Aurora Hand & Body Lotion',
     category: 'Beauty',
-    images: [
-      '/images/products/aurora-lotion.JPEG',
-      '/images/products/aurora-lotion-1.jpg',
-    ],
     shortDescription:
       'Deeply moisturizes and nourishes the skin. Leaves hands and body feeling soft, smooth, and refreshed all day.',
     fullDescription:
@@ -175,6 +163,7 @@ export const products = [
         sku: '200ml',
         price: 'PHP 650.00',
         packaging: '200ml',
+        images: ['/images/products/aurora-lotion.JPEG'],
       },
     ],
     shopeeUrl:
@@ -189,10 +178,6 @@ export const products = [
     slug: 'aurora-soap',
     name: 'Aurora Beauty Bar',
     category: 'Beauty',
-    images: [
-      '/images/products/aurora-soap.JPEG',
-      '/images/products/aurora-soap-1.jpg',
-    ],
     shortDescription:
       'A luxurious beauty bar that gently removes impurities while helping maintain healthy-looking skin. Leaves skin smooth, radiant, and refreshed.',
     fullDescription:
@@ -202,6 +187,7 @@ export const products = [
         sku: '135g',
         price: 'PHP 400.00',
         packaging: '135g',
+        images: ['/images/products/aurora-beauty-soap.JPEG'],
       },
     ],
     shopeeUrl:
@@ -216,7 +202,6 @@ export const products = [
     slug: 'fd-3x',
     name: 'FD3X',
     category: 'Health',
-    images: ['/images/products/fd-3x.JPEG', '/images/products/fd-3x-1.PNG'],
     shortDescription:
       'An advanced beauty supplement with antioxidants. Supports skin health and promotes beauty and wellness from within.',
     fullDescription:
@@ -226,6 +211,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1890.00',
         packaging: '60 Capsules',
+        images: ['/images/products/fd3x.JPEG'],
       },
     ],
     shopeeUrl:
@@ -240,10 +226,6 @@ export const products = [
     slug: 'fern-coffee-butterscotch',
     name: 'Fern Coffee Butterscotch',
     category: 'Wellness',
-    images: [
-      '/images/products/fern-coffee-butterscotch.JPEG',
-      '/images/products/fern-coffee-butterscotch-1.jpg',
-    ],
     shortDescription:
       'A delicious butterscotch coffee blend enriched with wellness ingredients. Helps support energy and vitality throughout the day.',
     fullDescription:
@@ -253,6 +235,7 @@ export const products = [
         sku: '10s/box',
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
+        images: ['/images/products/fern-coffee-butterscotch.JPEG'],
       },
     ],
     shopeeUrl:
@@ -267,10 +250,6 @@ export const products = [
     slug: 'fern-coffee-regular',
     name: 'Fern Coffee Regular',
     category: 'Wellness',
-    images: [
-      '/images/products/fern-coffee-regular.JPEG',
-      '/images/products/fern-coffee-regular-1.jpg',
-    ],
     shortDescription:
       'A rich coffee blend enhanced with wellness ingredients. Helps keep you energized, focused, and productive every day.',
     fullDescription:
@@ -280,6 +259,7 @@ export const products = [
         sku: '10s/box',
         price: 'PHP 350.00',
         packaging: '10 x 21g Sachets',
+        images: ['/images/products/fern-coffee-regular.JPEG'],
       },
     ],
     shopeeUrl:
@@ -294,10 +274,6 @@ export const products = [
     slug: 'fern-flex',
     name: 'Fern Flex',
     category: 'Health',
-    images: [
-      '/images/products/fern-flex.JPEG',
-      '/images/products/fern-flex-1.jpg',
-    ],
     shortDescription:
       'An advanced joint health supplement that supports comfort, flexibility, and mobility. Helps you stay active and move confidently every day.',
     fullDescription:
@@ -307,6 +283,7 @@ export const products = [
         sku: '30s',
         price: 'PHP 1650.00',
         packaging: '30 Capsules',
+        images: ['/images/products/fern-flex.JPEG'],
       },
     ],
     shopeeUrl:
@@ -321,10 +298,6 @@ export const products = [
     slug: 'zerochol',
     name: 'Zerochol',
     category: 'Health',
-    images: [
-      '/images/products/zerochol.JPEG',
-      '/images/products/zerochol-1.jpg',
-    ],
     shortDescription:
       'Supports heart health and healthy cholesterol levels. Designed to complement a healthy lifestyle and balanced diet.',
     fullDescription:
@@ -334,6 +307,7 @@ export const products = [
         sku: '60s',
         price: 'PHP 1900.00',
         packaging: '60 Tablets',
+        images: ['/images/products/zerochol.JPEG'],
       },
     ],
     shopeeUrl:
@@ -348,10 +322,6 @@ export const products = [
     slug: 'f-collagen',
     name: 'F-Collagen',
     category: 'Wellness',
-    images: [
-      '/images/products/f-collagen.JPEG',
-      '/images/products/f-collagen-1.jpg',
-    ],
     shortDescription:
       'A premium collagen supplement that supports skin elasticity and hydration. Promotes a youthful and radiant appearance.',
     fullDescription:
@@ -361,6 +331,7 @@ export const products = [
         sku: '7s/box',
         price: 'PHP 1700.00',
         packaging: '7 Sachets x 5g',
+        images: ['/images/products/f-collagen.JPEG'],
       },
     ],
     shopeeUrl:
@@ -375,10 +346,6 @@ export const products = [
     slug: 'silverfresh',
     name: 'SilverFresh',
     category: 'Wellness',
-    images: [
-      '/images/products/silverfresh.JPEG',
-      '/images/products/silverfresh-1.jpg',
-    ],
     shortDescription:
       'An advanced toothpaste that helps keep teeth clean, breath fresh, and gums healthy. Designed for everyday oral wellness and confidence.',
     fullDescription:
@@ -388,12 +355,59 @@ export const products = [
         sku: '100ml',
         price: 'PHP 500.00',
         packaging: '100ml',
+        images: ['/images/products/silverfresh.JPEG'],
       },
     ],
     shopeeUrl:
       'https://shopee.ph/SilverFresh-Anti-Bacterial-Toothpaste-i.1861457112.52262401594?extraParams=%7B%22display_model_id%22%3A361075021412%2C%22model_selection_logic%22%3A3%7D',
     lazadaUrl:
       'https://www.lazada.com.ph/products/pdp-i15528359099-s133281874173.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528359099%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528359099_PH%253Bprice%253A500%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A13%253Butlog_bucket_id%253A470687%253Basc_category_id%253A5562%253Bitem_id%253A15528359099%253Bsku_id%253A133281874173%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=5E%202&priceCompare=skuId%3A133281874173%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A50000%3BdisplayPrice%3A50000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.13&stock=1',
+    tiktokUrl: '',
+  },
+  {
+    id: 16,
+    slug: 'aurora-night-cream',
+    name: 'Aurora Night Cream',
+    category: 'Beauty',
+    shortDescription:
+      'A luxurious overnight moisturizer that deeply nourishes and hydrates the skin, helping reveal a smoother, brighter, and more radiant complexion by morning.',
+    fullDescription:
+      'Transform your nighttime skincare routine with Aurora Night Cream. This rich yet lightweight formula delivers intense hydration while helping support skin renewal throughout the night. Designed to promote a youthful-looking glow, it helps improve skin texture, maintain moisture balance, and leave your skin feeling soft, supple, and beautifully refreshed when you wake up.',
+    variants: [
+      {
+        sku: '30ml',
+        price: 'PHP 800.00',
+        packaging: '30ml',
+        images: ['/images/products/aurora-night-cream.JPEG'],
+      },
+    ],
+    shopeeUrl:
+      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl:
+      'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
+    tiktokUrl: '',
+  },
+  {
+    id: 17,
+    slug: 'aurora-sun-screen',
+    name: 'Aurora Sun Screen',
+    category: 'Beauty',
+    shortDescription:
+      'Protect your skin every day with Aurora Sun Screen. This lightweight formula helps shield your skin from harmful UV rays while keeping it hydrated, smooth, and healthy-looking.',
+    fullDescription:
+      'Aurora Sun Screen is designed to provide daily protection against the damaging effects of sun exposure. Its lightweight, non-greasy formula helps defend the skin from harmful UV rays while maintaining essential moisture for a soft and comfortable feel. Perfect for everyday use, it blends easily into the skin, leaving no heavy residue and helping maintain a brighter, healthier-looking complexion throughout the day.',
+    variants: [
+      {
+        sku: '15g',
+        price: 'PHP 700.00',
+        packaging: '15g',
+        images: ['/images/products/aurora-sun-screen.JPEG'],
+      },
+    ],
+    shopeeUrl:
+      'https://shopee.ph/AURORA-Beauty-Bar-Ageless-White-Beauty-i.1861457112.45812425001?extraParams=%7B%22display_model_id%22%3A292706262531%2C%22model_selection_logic%22%3A3%7D',
+    lazadaUrl:
+      'https://www.lazada.com.ph/products/pdp-i15528940387-s133281874104.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A15528940387%253Bsrc%253AlazadaInShopSrp%253Brn%253A6d1da395197bd87210e4c451997bcd55%253Bregion%253Aph%253Bsku%253A15528940387_PH%253Bprice%253A400%253Bclient%253Adesktop%253Bsupplier_id%253A502009616430%253Bbiz_source%253Ah5_internal%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A25122%253Bitem_id%253A15528940387%253Bsku_id%253A133281874104%253Bshop_id%253A6119653%253BtemplateInfo%253A107881_E%2523-1_A3_C%2523&freeshipping=0&fs_ab=2&fuse_fs=&lang=en&location=Ilocos%20Sur&price=4E%202&priceCompare=skuId%3A133281874104%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3A6d1da395197bd87210e4c451997bcd55%3BoriginPrice%3A40000%3BdisplayPrice%3A40000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1781777196111&ratingscore=&request_id=6d1da395197bd87210e4c451997bcd55&review=&sale=0&search=1&spm=a2o4l.store_product.list.8&stock=1',
     tiktokUrl: '',
   },
 ];

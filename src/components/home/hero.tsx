@@ -82,7 +82,7 @@ export default function Hero() {
             src={slide.image}
             alt={slide.title}
             fill
-            priority={index === 0}
+            priority={index === current}
             sizes="100vw"
             className="object-cover object-center"
           />

@@ -6,15 +6,20 @@ type Variant = {
   sku: string;
   price: string;
   packaging: string;
+  images: string[];
 };
 
 type Props = {
   variants: Variant[];
+  selectedVariant: Variant;
+  setSelectedVariant: (variant: Variant) => void;
 };
 
-export default function ProductVariantDetails({ variants }: Props) {
-  const [selectedVariant, setSelectedVariant] = useState(variants[0]);
-
+export default function ProductVariantDetails({
+  variants,
+  selectedVariant,
+  setSelectedVariant,
+}: Props) {
   return (
     <>
       {variants.length > 1 && (
